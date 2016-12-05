@@ -13,6 +13,7 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
   font-style: italic;
+  font-size: 1.75em
 }
 
 p {
@@ -30,15 +31,29 @@ p {
 .title {
   width: 30%;
   height: 20%;
-  margin:0;
+  margin-top:-1px;
+  margin-right:-1px;
   font-weight: bold;
+  font-size: 1.25em;
   text-align: center;
    font-family: sans-serif;
    border: 1px solid black;
-   background-color:yellow;
    padding: 5px;
   color: black;
   float:right;
+  overflow: hidden;
+}
+
+.orange{
+  background-color:#b37700
+}
+
+.gray{
+background-color:#999966
+}
+
+.yellow{
+  background-color:#ffd11a
 }
 
 .inner{
@@ -52,7 +67,10 @@ border: 1px solid black;
 .row {
   width: 100%;
 
+
 }
+
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -139,5 +157,14 @@ border: 1px solid black;
   .col-md-12 {
     width: 100%;
   }
+
+
+
 }
 
+@media (max-width: 767px) {
+
+div {float: left;
+}
+
+}
