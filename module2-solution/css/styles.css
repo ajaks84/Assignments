@@ -5,9 +5,7 @@
   box-sizing: border-box;
 }
 
-
 body{
-
    background-color: #196619;
 }
 
@@ -15,10 +13,7 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
   font-style: italic;
-
 }
-
-
 
 p {
   width: 90%;
@@ -26,7 +21,6 @@ p {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-
   color: white;
   clear:right;
   padding: 5px;
