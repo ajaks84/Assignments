@@ -21,6 +21,7 @@ p {
   height: 150px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 10px;
   font-family: Helvetica;
   color: white;
   clear:right;
@@ -33,15 +34,15 @@ p {
   height: 20%;
   margin-top:-1px;
   margin-right:-1px;
+  margin-bottom:0px;
   font-weight: bold;
   font-size: 1.25em;
   text-align: center;
-   font-family: sans-serif;
-   border: 1px solid black;
-   padding: 5px;
+  font-family: sans-serif;
+  border: 1px solid black;
+  padding: 5px;
   color: black;
   float:right;
-  overflow: hidden;
 }
 
 .orange{
@@ -66,17 +67,12 @@ border: 1px solid black;
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-
-
 }
-
-
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-
   }
   .col-lg-1 {
     width: 8.33%;
@@ -158,13 +154,9 @@ border: 1px solid black;
     width: 100%;
   }
 
-
-
 }
 
 @media (max-width: 767px) {
-
 div {float: left;
 }
-
 }
